@@ -10,7 +10,7 @@ let Inventory = [
 ];
 
 // Task 2: Create an Orders Array of Order Objects
-    const orders =[];
+    let Array =[];
 
 orders.push({
     Customer:'Bryan Ross'
@@ -23,10 +23,11 @@ orders.push({
 
 orders.push ({
     Customer: Alison Mae'
-    Products:[
-    {Name: 'Iced Vanilla Latte', Quantity: 4}
-    {Name: 'Mocha', Quantity: 2}
+    Products: [
+        {Name: 'Iced Vanilla Latte', Quantity: 4}
+        {Name: 'Mocha', Quantity: 2}
 ]
-Status: 'Pending'
-})
+    Status: 'Pending'
+});
+
 
