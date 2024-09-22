@@ -30,4 +30,26 @@ orders.push ({
     Status: 'Pending'
 });
 
-
+// Task 3: Create a Function to Place an Order
+function placeOrder(customerName, items) {
+    // For loop, verify if the item is in stock
+    for (let quantity in items) {
+        inventory
+.find(items => items.name === items);}
+if (!items) {
+    console.log ('Error. Items not in stock');
+    break;
+}
+if(items.quanitity > inventory.quantity) {
+    console.log('Error. Items out of stock.');
+}
+for (let quantity in items) {}
+    inventory.find(item => items.name === items);
+    items.quantity -= inventory.quantity;
+}
+//create order and push(), set status to pending
+order.push({
+    customerName: customerName,
+    item: [{name: name, quantity: quantity}],
+    status: 'Pending'
+});
