@@ -67,3 +67,14 @@ function completeorder(customername) {
 // Testing Function with one Alison Mae's Order
 let ordercompletedtest= completeorder('Alison Maes')
 console.log('Alison Mae's order is ${ordercompletedtest})
+
+// Task 6:Create a Function to Check Pending Orders
+function checkPendingOrders () {
+    orders.foreach(orders =>
+    {if (order.status= 'pending') {
+        return (orders)
+    }
+})};
+console.log('Pending Orders Details: ${checkpPendingOrders(orders)}')
+
+
