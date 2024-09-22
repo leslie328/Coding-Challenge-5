@@ -61,3 +61,9 @@ function calculateordertotal (order) {
     }
     return total;
 }
+// Task 5: Create a Function to Mark an Order as Completed
+function completeorder(customername) {
+}
+// Testing Function with one Alison Mae's Order
+let ordercompletedtest= completeorder('Alison Maes')
+console.log('Alison Mae's order is ${ordercompletedtest})
