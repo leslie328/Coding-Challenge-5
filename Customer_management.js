@@ -4,7 +4,7 @@ let Inventory = [
     {name: 'Expresso', Price:6, Quantity: 40}
     {name: 'Mocha' , Price: 8, Quantity: 10}
     {name: 'Latte', Price: 7, Quantity: 30}
-    {name: 'Coffee Beans', Price: 10, Quantity: 20}
+    {name: 'Coffee Beans', Price: 10, Quantity: 15}
 
         
 ];
