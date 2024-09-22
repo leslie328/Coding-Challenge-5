@@ -53,3 +53,11 @@ order.push({
     item: [{name: name, quantity: quantity}],
     status: 'Pending'
 });
+// Task 4: Create a Function to Calculate Total for an Order
+function calculateordertotal (order) {
+    let total= 0;
+    for (let item of order.items) {
+        total+= item.price;
+    }
+    return total;
+}
